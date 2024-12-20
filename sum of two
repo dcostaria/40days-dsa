@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a, b, sum;  // Declare variables
+    cin >> a >> b;  // Take input for a and b
+    sum = a + b;    // Calculate the sum
+    cout << "Sum: " << sum << endl;  // Display the result
+    return 0;
+}
